@@ -43,6 +43,9 @@ const student = {
     age: 25
 };
 // Tuples
-const user = ['John', 'Doe', 25];
-user.push(5);
+let user;
+user = ['John', 'Doe', 25];
 console.log('Tuple user =', user);
+let user2;
+user2 = [1, 2, 3, 'Hello', 'John'];
+const expectedTexts = ['Product Name', 'Quantity', 'Discount'];
